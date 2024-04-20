@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Animations -Rotate</title>
+        <link rel="stylesheet" href="./styles.css">
+        <style>
+            .animate{
+                animation: myrotate 5s infinite linear;
+                
+            }
+            @keyframes myrotate {
+                0% { transform: translate(-50%, -50%) rotate(0deg); }
+                100% { transform: translate(-50%, -50%) rotate(360deg); }
+            }
+        </style>
+    </head>
+    <body>
+            <div class="box top-left">top-left</div>
+            <div class="box top-right">top-right</div>
+            <div class="box bottom-left">bottom-left</div>
+            <div class="box bottom-right">bottom-right</div>
+            <div class="box center animate" style="background-color: lightcoral;">center</div>
+
+    </body>
+</html>

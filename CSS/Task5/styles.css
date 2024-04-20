@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .circle{
+    width: 100px;
+    height:100px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px; 
+    border: 2px solid black;
+    border-radius: 100%;
+    background-color: lightskyblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    }
+  
+  /* Create three unequal columns that floats next to each other */
+  .column {
+    float: left;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  .left{
+    width: 45%;
+    display: flex;
+    justify-content: right;
+    padding-right:10px ;
+  }
+  .right{
+    width:45%;
+    padding-left: 10px;
+  } 
+  
+  .middle {
+    width: 2px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
