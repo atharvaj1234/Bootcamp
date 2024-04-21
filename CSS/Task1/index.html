@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Font Face using Gfonts</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Micro+5+Charted&display=swap" rel="stylesheet">
+        <style>
+            .gfont{
+                font-family: "Micro 5 Charted", sans-serif;
+                font-size: 3rem;
+                font-style: normal;
+            }
+            .localfont{
+                font-family: "Anurati";
+                letter-spacing: 7px;
+                font-size: 5rem;
+                src: url("./Anurati-Regular.otf") format("opentype");
+            }
+        </style>
+    </head>
+    <body align="center">
+        <p class="localfont">HEY THERE</p>
+        <p class="gfont">THIS IS MY FIRST BOOTCAMP TASK</p>
+    </body>
+</html>
