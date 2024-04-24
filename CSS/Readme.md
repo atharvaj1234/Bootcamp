@@ -1,5 +1,5 @@
-# CSS Tasks
-This Repository Consists of every task completed by Me, in the BootCamp CSS Sessions Provided by EDBA Academy.
+# CSS Tasks on Day 1
+This Repository Consists of every task completed by Me on Day 1 of the BootCamp CSS Sessions Provided by EDBA Academy.
 
 ### Installation
 To run this projects you will need:
