@@ -28,8 +28,8 @@ This task showcases a webpage with the following features:
 8. **Footer**:
    - Includes a footer section with a link to the contact page.
 
-9. **Contact Page**:
-    - A separate contact page is created for user interaction and inquiries.
+9. **Contact**:
+    - A separate contact tab is created for user interaction and inquiries.
 
 ## How to Run
 1. Clone the repository.
