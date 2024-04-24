@@ -160,26 +160,26 @@
       </div>
       <div class="col-md-4">
         <div class="card">
-          <div class="card-body">
+           <div class="card-body">
             <h4>Check out my Repositories:</h4>
             <br>
             <div class="card">
               <div class="card-body">
-                <a href="https://github.com/atharvaj1234/Automatic-Report-Generation">Automatic Report Generation
+                <a href="https://github.com/atharvaj1234/Automatic-Report-Generation" data-toggle="tooltip" title="A Python Based Project with MySQl Database Integration to automactically generate and print performance evaluation report of employee">Automatic Report Generation
                   System</a>
               </div>
             </div>
             <br>
             <div class="card">
               <div class="card-body">
-                <a href="https://github.com/atharvaj1234/Realtime-Weather-Forecast-System">Realtime Weather Forecast
+                <a href="https://github.com/atharvaj1234/Realtime-Weather-Forecast-System" data-toggle="tooltip" title="A Weather Forecast System that Provide Information about Weather conditions like wind speed, humidity and climate">Realtime Weather Forecast
                   System</a>
               </div>
             </div>
             <br>
             <div class="card">
               <div class="card-body">
-                <a href="https://github.com/atharvaj1234/Email-Automation-System-for-Alumni-Meet">E-mail Automatoin
+                <a href="https://github.com/atharvaj1234/Email-Automation-System-for-Alumni-Meet" data-toggle="tooltip" title="An Email Automation System that Automactically sends emails to alumus by fetching emails from the excel sheet.">E-mail Automation
                   System for Alumni Meet</a>
               </div>
             </div>
@@ -202,29 +202,6 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-  <script>
-    function simulateProgress() {
-        let progresscontainer = document.querySelector('.progress');
-        let progressBar = document.querySelector('.progress-bar');
-        let main = document.querySelector('.main');
-        let startTime = Date.now(); // Record the start time
-        let interval = setInterval(function () {
-            let elapsedTime = Date.now() - startTime; // Calculate elapsed time
-            let progress = Math.min(100, (elapsedTime / 3000) * 100); // Calculate progress based on elapsed time
-            progressBar.style.width = progress + '%';
-            progressBar.setAttribute('aria-valuenow', progress);
-            if (progress >= 100) {
-                main.style.display='block';
-                progresscontainer.style.display='none';
-                clearInterval(interval);
-                // Optionally, hide the progress bar or perform other actions here
-            }
-        }, 10); // Adjust the interval for smoother or faster progress
-    }
-    // Start the progress simulation
-    simulateProgress();
-</script>
 
 </body>
 
