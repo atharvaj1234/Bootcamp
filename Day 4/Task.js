@@ -20,6 +20,8 @@ const expense = {
     paymentMode: "",
 };
 
+//----------------------------------------------------------
+
 function copyObjectMethod1(obj) {
     if (typeof obj !== 'object') {
         return obj;
