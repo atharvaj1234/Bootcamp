@@ -11,7 +11,7 @@ To run this project you will need:
 
 ### File Structure
 ```
-Bootcamp/Day 2/
+Bootcamp/Day 4/
 │
 ├── Task 1/
 │ ├── index.html
