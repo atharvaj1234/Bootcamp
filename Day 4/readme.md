@@ -1,4 +1,4 @@
-# Expense Object Copying Logic README
+# Object Copying Logic (Overcomes Object Shallowing)
 
 ## Purpose
 This README explains the logic behind copying an expense object in JavaScript using the provided `copyObject` function in five steps.
