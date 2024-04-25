@@ -20,7 +20,7 @@ const expense = {
     paymentMode: "",
 };
 
-function copyObject(obj) {
+function copyObjectMethod1(obj) {
     if (typeof obj !== 'object') {
         return obj;
     }
@@ -32,3 +32,20 @@ function copyObject(obj) {
 }
 
 const copyOfExpense = copyObject(expense);
+
+//---------------------------------------------------------
+
+
+function copyObjectMethod2(src, dest) {
+    for (let key in src) {
+        if (typeof src[key] == 'object') {
+            dest[key] = {}
+            copyObjectMethod2(src[key], dest[key]);
+            break;
+        }
+        target[key] = src[key];
+    }
+}
+
+const copy = {};
+copyObjectMethod2(expense, copy);

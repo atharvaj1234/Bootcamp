@@ -1,4 +1,9 @@
 # Object Copying Logic (Overcomes Object Shallowing)
+This File contains 2 Approaches to copy objects by overcoming the problem of object shallowing in nested objects.
+you can try using method 1:
+`const copiedObjectName = copyObject(objectName);`
+OR method 2:
+`copyObjectMethod2(sourceObject, destinationObject);`
 
 ## Purpose
 This README explains the logic behind copying an expense object in JavaScript using the provided `copyObject` function in five steps.
