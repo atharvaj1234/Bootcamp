@@ -1,4 +1,4 @@
-# CSS Tasks on Day 4
+# JS Tasks on Day 4
 This Repository Consists of every task completed by Me on Day 4 of the BootCamp - JavaScript Sessions Provided by EDBA Academy.
 
 ### Installation
