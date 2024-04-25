@@ -14,16 +14,15 @@ const expense = {
 };
 
 console.log("const expenseStructure =")
-function objectDetails(src) {
-    console.log("{")
-    for (let key in src) {
-        console.log(key + ": \"" + typeof src[key]+"\"");
-        if(typeof src[key] == 'object')
-        {
-            objectDetails(src[key]);
-        }
+function copyObject(obj) {
+    if (typeof obj !== 'object') {
+        return typeof obj;
     }
-    console.log("}");
+    const copy = {};
+    for (let key in obj) {
+        copy[key] = copyObject(obj[key]);
+    }
+    return copy;
 }
 
-objectDetails(expense);
+const copyOfExpense = copyObject(expense);

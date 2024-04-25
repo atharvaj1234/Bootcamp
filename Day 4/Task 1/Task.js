@@ -22,7 +22,7 @@ const expense = {
 
 //----------------------------------------------------------
 
-function copyObjectMethod1(obj) {
+function copyObject(obj) {
     if (typeof obj !== 'object') {
         return obj;
     }
@@ -45,7 +45,7 @@ function copyObjectMethod2(src, dest) {
             copyObjectMethod2(src[key], dest[key]);
             break;
         }
-        target[key] = src[key];
+        dest[key] = src[key];
     }
 }
 
