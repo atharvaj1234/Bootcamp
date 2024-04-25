@@ -17,7 +17,7 @@ const expense = {
 };
 
 function copyObject(obj) {
-    if (obj === null || typeof obj !== 'object') {
+    if (typeof obj !== 'object') {
         return obj;
     }
     const copy = {};
