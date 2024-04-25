@@ -1,5 +1,9 @@
 // write a function that takes a input object(any level of nesting) and creates copy of same
 // Hint : Recursion
+// declaration
+//let variable = {
+//     key : value
+// };
 
 const expense = {
     id: "",
@@ -28,5 +32,3 @@ function copyObject(obj) {
 }
 
 const copyOfExpense = copyObject(expense);
-
-
