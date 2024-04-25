@@ -17,7 +17,7 @@ console.log("const expenseStructure =")
 function objectDetails(src) {
     console.log("{")
     for (let key in src) {
-        console.log(key + ":" + typeof src[key]);
+        console.log(key + ": \"" + typeof src[key]+"\"");
         if(typeof src[key] == 'object')
         {
             objectDetails(src[key]);
