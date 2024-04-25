@@ -29,12 +29,4 @@ function copyObject(obj) {
 
 const copyOfExpense = copyObject(expense);
 
-console.log(expense);
-console.log(copyOfExpense);
-
-copyOfExpense.address.newvalue= "some value";
-
-console.log(expense);
-console.log(copyOfExpense);
-
 
