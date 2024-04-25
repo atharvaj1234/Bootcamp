@@ -2,22 +2,23 @@
 This Repository Consists of every task completed by Me on Day 4 of the BootCamp - JavaScript Sessions Provided by EDBA Academy.
 
 ### Installation
-To run this projects you will need:
+To run this project you will need:
 - Web Browser (Chrome or Edge preferable)
 
 1. Clone this repository.
 2. Run `index.html` files.
-3. Check the console ouputs
+3. Check the console outputs
 
 ### File Structure
 ```
 Bootcamp/Day 2/
 │
-├── Task1/
+├── Task 1/
 │ ├── index.html
 │ ├── Task.js
 │ ├── Readme.md
 │ │
+│ ├── Task 2/
 │ ├── index.html
 │ ├── Task2.js
 │ └── Readme.md
@@ -25,4 +26,4 @@ Bootcamp/Day 2/
 ```
 
 ## Credits
-- CSS Sessions and Lectures provided by EDBA Academy.
+- JS Sessions and Lectures provided by EDBA Academy.
