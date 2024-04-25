@@ -25,3 +25,4 @@ function createStructure(obj) {
 }
 
 const expenseStructure = createStructure(expense);
+console.log(expenseStructure);
