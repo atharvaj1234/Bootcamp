@@ -1,4 +1,4 @@
-# Expense Object Structure Demo
+# Object Structure Demo
 
 This repository demonstrates a function that generates the structure of the provided object. In this case, it analyzes the structure of an expense object.
 
