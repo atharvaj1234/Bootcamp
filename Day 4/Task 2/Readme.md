@@ -1,21 +1,16 @@
-# Object Structure Demonstration
+# Expense Object Structure Demo
 
-## Overview
+This repository demonstrates a function that generates the structure of the provided object. In this case, it analyzes the structure of an expense object.
 
-This repository showcases a JavaScript function designed to provide insights into the structure of an object. By iterating through the properties of the object and logging their keys along with their corresponding data types, this function offers a clear understanding of complex object compositions, including nested structures.
+## Description
 
-## Usage
+The `createStructure` function takes an object as input and recursively analyzes its structure, generating a structured representation of its keys and their types.
 
-To utilize the function effectively, adhere to the following steps:
+## Example
 
-1. **Function Inclusion**: Copy the provided `objectDetails` function into your JavaScript codebase.
+Consider the following example object representing an expense:
 
-2. **Input Object**: Pass the object of interest, whose structure you wish to analyze, as an argument to the `objectDetails` function.
-
-3. **Execution**: Run your JavaScript code. The function will log the structure of the object to the console.
-
-Example:
-```javascript
+```
 const expense = {
     id: 1234,
     description: "Reason of Expense",
@@ -31,13 +26,16 @@ const expense = {
     paymentMode: "",
 };
 
-console.log("const expenseStructure =");
-objectDetails(expense);
-```
+const expenseStructure = createStructure(expense);
+console.log(expenseStructure);
 
-This will output the structure of the `expense` object to the console.
+```
+This will output the structure of the expense object.
 
 ## Function Explanation
+The createStructure function analyzes the structure of the provided object recursively. Here's how it works:
 
-The `objectDetails` function operates by accepting an object as input and recursively traversing through its properties. For each property encountered, it logs the key along with its data type to the console. If a property's value is another object, the function recursively calls itself to log the structure of the nested object.
-
+ - If the input is not an object, it returns the type of the input.
+ - If the input is an object, it iterates through each key:
+ - For each key, it recursively calls createStructure to analyze its value.
+ - It constructs and returns a structured object representing the keys and their types.

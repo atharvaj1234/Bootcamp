@@ -13,16 +13,15 @@ const expense = {
     paymentMode: "",
 };
 
-console.log("const expenseStructure =")
-function copyObject(obj) {
+function createStructure(obj) {
     if (typeof obj !== 'object') {
         return typeof obj;
     }
-    const copy = {};
+    const struct = {};
     for (let key in obj) {
-        copy[key] = copyObject(obj[key]);
+        struct[key] = createStructure(obj[key]);
     }
-    return copy;
+    return struct;
 }
 
-const copyOfExpense = copyObject(expense);
+const expenseStructure = createStructure(expense);
