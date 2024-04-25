@@ -10,7 +10,7 @@ To run this projects you will need:
 
 ### File Structure
 ```
-Bootcamp/CSS/
+Bootcamp/Day 1/
 │
 ├── Task1/
 │ ├── Anurati-Regular.otf

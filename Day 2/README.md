@@ -10,7 +10,7 @@ To run this projects you will need:
 
 ### File Structure
 ```
-Bootcamp/CSS/
+Bootcamp/Day 2/
 │
 ├── Task1/
 │ ├── logo.png
