@@ -1,4 +1,4 @@
-#JavaScript (JS) sticks out for internet development due to its:
+# JavaScript (JS) sticks out for internet development due to its:
 
 1. Client-Side Interactivity: JS executes inside the browser, allowing instantaneous comments and dynamic person reviews without regular server communication.
 2. Community Support: A extensive developer community presents ample resources, libraries, and frameworks, easing development and troubleshooting.
