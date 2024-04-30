@@ -1,0 +1,31 @@
+// Sample array
+const numbers = [5, 3, 8, 1, 9];
+
+// 1. Array.prototype.find()
+const foundValue = numbers.find(num => num > 5); // Returns 8
+
+// 2. Array.prototype.findIndex()
+const foundIndex = numbers.findIndex(num => num > 5); // Returns 2
+
+// 3. Array.prototype.forEach()
+numbers.forEach(num => console.log(num * 2)); // Logs each number multiplied by 2
+
+// 4. Array.prototype.map()
+const doubledNumbers = numbers.map(num => num * 2); // Returns [10, 6, 16, 2, 18]
+
+// 5. Array.prototype.pop()
+const lastElement = numbers.pop(); // Removes 9 from the array and returns it
+
+// 6. Array.prototype.push()
+const newLength = numbers.push(10, 4); // Adds 10 and 4 to the end of the array and returns the new length (7)
+
+// 7. Array.prototype.sort()
+numbers.sort((a, b) => a - b); // Sorts the array in ascending order
+
+// Output
+console.log("First element greater than 5:", foundValue);
+console.log("Index of first element greater than 5:", foundIndex);
+console.log("Doubled numbers:", doubledNumbers);
+console.log("Removed last element:", lastElement);
+console.log("New length after pushing elements:", newLength);
+console.log("Sorted numbers:", numbers);
