@@ -16,14 +16,14 @@ Bootcamp/Day 5/
 ├── Task 1/
 │ ├── index.html
 │ ├── Task1.js
-│ ├── Readme.md
-│ │
-│ ├── Task 2/
-│ ├── Readme.md
-│ │
-│ ├── Task 3/
+│ └── Readme.md
+│ 
+├── Task 2/
+│ └── Readme.md
+│ 
+├── Task 3/
 │ ├── index.html
-│ ├── Task2.js
+│ ├── Task3.js
 │ └── Readme.md
 └── README.md
 ```

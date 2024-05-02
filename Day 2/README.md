@@ -12,7 +12,7 @@ To run this projects you will need:
 ```
 Bootcamp/Day 2/
 │
-├── Task1/
+├── Task1-6/
 │ ├── logo.png
 │ ├── index.html
 │ ├── styles.css

@@ -13,12 +13,17 @@ To run this project you will need:
 ```
 Bootcamp/Day 4/
 │
+├── REST API using Array/
+│ ├── index.html
+│ ├── Task.js
+│ └── Readme.md
+│ 
 ├── Task 1/
 │ ├── index.html
 │ ├── Task.js
-│ ├── Readme.md
-│ │
-│ ├── Task 2/
+│ └── Readme.md
+│ 
+├── Task 1/
 │ ├── index.html
 │ ├── Task2.js
 │ └── Readme.md

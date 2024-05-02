@@ -14,9 +14,9 @@ To run this project you will need:
 Bootcamp/Day 6/
 │
 ├── Task 1/
-│ ├── Readme.md
-│ │
-│ ├── Task 2/
+│ └── Readme.md
+│ 
+├── Task 2/
 │ ├── index.html
 │ ├── Task2.js
 │ └── Readme.md
