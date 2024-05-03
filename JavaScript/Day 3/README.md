@@ -17,15 +17,6 @@ Bootcamp/Day 3/
 │ ├── index.html
 │ ├── script.js
 │ └── Readme.md
-│
-├── Task 1/
-│ └── Readme.md
-│ 
-├── Task 2/
-│ └── Readme.md
-│ 
-├── Task 2/
-│ └── Readme.md
 └── README.md
 ```
 

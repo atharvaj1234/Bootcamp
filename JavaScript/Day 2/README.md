@@ -1,5 +1,5 @@
-# JS Tasks on Day 4
-This Repository Consists of every task completed by Me on Day 4 of the BootCamp - JavaScript Sessions Provided by EDBA Academy.
+# JS Tasks on Day 2
+This Repository Consists of every task completed by Me on Day 2 of the BootCamp - JavaScript Sessions Provided by EDBA Academy.
 
 ### Installation
 To run this project you will need:
@@ -11,19 +11,17 @@ To run this project you will need:
 
 ### File Structure
 ```
-Bootcamp/Day 4/
+Bootcamp/Day 2/
 │
-├── REST API using Array/
-│ ├── index.html
-│ ├── Task.js
-│ └── Readme.md
-│ 
 ├── Task 1/
 │ ├── index.html
-│ ├── Task.js
+│ ├── Task2.js
 │ └── Readme.md
 │ 
-├── Task 1/
+├── Task 2/
+│ └── Readme.md
+│ 
+├── Task 3/
 │ ├── index.html
 │ ├── Task2.js
 │ └── Readme.md

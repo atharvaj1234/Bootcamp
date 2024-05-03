@@ -1,13 +1,10 @@
 # Object Structure Demo
-
 This repository demonstrates a function that generates the structure of the provided object. In this case, it analyzes the structure of an expense object.
 
 ## Description
-
 The `createStructure` function takes an object as input and recursively analyzes its structure, generating a structured representation of its keys and their types.
 
 ## Example
-
 Consider the following example object representing an expense:
 
 ```

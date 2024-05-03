@@ -1,5 +1,5 @@
-# JS Tasks on Day 6
-This Repository Consists of every task completed by Me on Day 6 of the BootCamp - JavaScript Sessions Provided by EDBA Academy.
+# JS Tasks on Day 1
+This Repository Consists of every task completed by Me on Day 1 of the BootCamp - JavaScript Sessions Provided by EDBA Academy.
 
 ### Installation
 To run this project you will need:
@@ -11,14 +11,24 @@ To run this project you will need:
 
 ### File Structure
 ```
-Bootcamp/Day 6/
-│
+Bootcamp/Day 1/
 ├── Task 1/
 │ └── Readme.md
-│ 
+│
 ├── Task 2/
 │ ├── index.html
-│ ├── Task2.js
+│ ├── script.js
+│ └── Readme.md
+│
+├── Task 3/
+│ ├── index.html
+│ ├── script.js
+│ └── Readme.md
+│ 
+├── Task 4/
+│ └── Readme.md
+│ 
+├── Task 5/
 │ └── Readme.md
 └── README.md
 ```

@@ -1,3 +1,4 @@
+
 # Add Integers Program
 
 ## Description
@@ -16,14 +17,12 @@ console.log(additionES5(1, 2, 3)); // Output: 6
 console.log(additionES5(5, 10, 15, 20)); // Output: 50
 ```
 
-
 ### ES6 Version:
 1. Copy the code from the `additionES6` function.
 2. Call the function with any number of integers as arguments using the spread operator (...).
 3. The function will return the sum of the integers.
 
 Example:
-
 ```javascript
 console.log(additionES6(1, 2, 3)); // Output: 6
 console.log(additionES6(5, 10, 15, 20)); // Output: 50
