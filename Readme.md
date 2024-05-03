@@ -7,24 +7,46 @@ Welcome to the Edba Academy Training Session repository! This repository contain
 All Days From Day  1 to Day 9 will be Updated in this Repository in a Day-wise format. Following will be the ideal Structure of this Repo:
 ```
 Bootcamp
-│
-├── Day 1/
-│ ├── Task 1/
-│ │ ├── Task_Files
-│ │ └── Readme.md
-│ │
-│ ├── Task n/
-│ │ ├── Task_Files
+│ 
+├── CSS/
+│ ├── Day 1/
+│ │ ├── Task 1/
+│ │ │ ├── Task_Files
+│ │ │ └── Readme.md
+│ │ │
+│ │ ├── Task n/
+│ │ │ ├── Task_Files
+│ │ │ └── Readme.md
+│ │ └── README.md
+│ │ 
+│ ├── Day n/
+│ │ ├── Task 1/
+│ │ │ ├── Task_Files
+│ │ │ └── Readme.md
+│ │ │
+│ │ ├── Task n/
+│ │ │ ├── Task_Files
 │ │ └── Readme.md
 │ └── README.md
-│ 
-├── Day n/
-│ ├── Task 1/
-│ │ ├── Task_Files
-│ │ └── Readme.md
-│ │
-│ ├── Task n/
-│ │ ├── Task_Files
+│
+├── JavaScript/
+│ ├── Day 1/
+│ │ ├── Task 1/
+│ │ │ ├── Task_Files
+│ │ │ └── Readme.md
+│ │ │
+│ │ ├── Task n/
+│ │ │ ├── Task_Files
+│ │ │ └── Readme.md
+│ │ └── README.md
+│ │ 
+│ ├── Day n/
+│ │ ├── Task 1/
+│ │ │ ├── Task_Files
+│ │ │ └── Readme.md
+│ │ │
+│ │ ├── Task n/
+│ │ │ ├── Task_Files
 │ │ └── Readme.md
 │ └── README.md
 └── Readme.md
