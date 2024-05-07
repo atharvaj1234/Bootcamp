@@ -1,96 +1,7 @@
-//===========================================================================================================================
-// Declarations
-
+import  {generateUniqueId,filterByCategory,getTotalExpensesInRange,deleteExpenseById,updateExpenseById,arrayOfRandomExpense} from "./BasicFunctions.js";
+import { Expense,elements } from "./expensesAndElements.js";
 import { faker } from "https://esm.sh/@faker-js/faker";
 
-const elements = {
-  addEntrybtn: document.getElementById("addEntry"),
-  overlayForEntry: document.getElementById("overlayForEntry"),
-  addExpenseBtn: document.getElementById("addExpense"),
-  cancelEntrybtn: document.getElementById("cancelEntry"),
-  generateRandom: document.getElementById("generateRandom"),
-
-  filterByCategorybtn: document.getElementById("filterByCategory"),
-  overlayForCategory: document.getElementById("overlayForCategory"),
-  FindExpenseByCategorybtn: document.getElementById("FindExpenseByCategory"),
-  cancelFindByCategorybtn: document.getElementById("cancelFindByCategory"),
-
-  filterByDatebtn: document.getElementById("filterByDate"),
-  overlayForDate: document.getElementById("overlayForDate"),
-  FilterExpenseByDatebtn: document.getElementById("FindExpenseByDate"),
-  cancelFilterByDatebtn: document.getElementById("cancelFindByDate"),
-
-  updateExpenseBtn: document.getElementById("updateExpense"),
-  overlayForUpdate: document.getElementById("overlayForUpdate"),
-  updateExpenseAttributesBtn: document.getElementById("updateExpenseAttributes"),
-  cancelUpdateBtn: document.getElementById("cancelUpdate"),
-
-  getTotalExpense: document.getElementById("getTotalExpense"),
-  
-  removeExpense: document.getElementById("removeExpense")
-};
-
-
-//==========================================================================================================================
-// Array Function Constructor
-
-function Expense(
-  expenseid,
-  description,
-  category,
-  amount,
-  date,
-  modeOfPayment
-) {
-  this.expenseid = expenseid;
-  this.description = description;
-  this.category = category;
-  this.amount = amount;
-  this.date = date;
-  this.modeOfPayment = modeOfPayment;
-}
-
-//==================================================================================================================================
-// Functions Logic
-
-const generateUniqueId = (config = {}) => {
-  const { prefix } = config;
-  return (prefix ? prefix + "-" : "") + Math.random().toString(36).substring(2);
-};
-
-function filterByCategory(category) {
-  return arrayOfRandomExpense.filter(
-    (expense) => expense.category.toLowerCase() === category.toLowerCase()
-  );
-}
-
-function getTotalExpensesInRange(startDate, endDate) {
-  return arrayOfRandomExpense.filter((expense) => {
-    const expenseDate = new Date(expense.date);
-    return expenseDate >= startDate && expenseDate <= endDate;
-  });
-}
-
-function deleteExpenseById(id) {
-  const index = arrayOfRandomExpense.findIndex(
-    (expense) => expense.expenseid.toLowerCase() === id.toLowerCase()
-  );
-  if (index !== -1) {
-    arrayOfRandomExpense.splice(index, 1);
-  } else {
-    alert("Expense ID doesn't Exist");
-  }
-}
-
-function updateExpenseById(id, updateObject) {
-  const expenseToUpdate = arrayOfRandomExpense.find(
-    (expense) => expense.expenseid === id
-  );
-  if (!expenseToUpdate) alert("Expense Doesn't Exist");
-  Object.assign(expenseToUpdate, updateObject);
-}
-
-let arrayOfRandomExpense = [];
 //===============================================================================================================================================
 // Render Total and Expenses to Screen Logic
 
@@ -102,10 +13,9 @@ function renderTotal(totalExpense) {
 }
 
 function renderExpenses(expenses) {
-  expenses.forEach((expense) => {
+    expenses.forEach((expense) => {
     const expenseDiv = document.createElement("div");
     expenseDiv.classList.add("expense");
-
     Object.entries(expense).forEach(([key, value]) => {
       const textDiv = document.createElement("div");
       textDiv.classList.add("expensetext");
@@ -143,7 +53,7 @@ elements.addExpenseBtn.addEventListener("click", () => {
     paymentMode
   );
   arrayOfRandomExpense.push(newExpense);
-  expenseHolder.innerHTML = ""; // Clear existing expense
+  expenseHolder.innerHTML = ""; // Clear existing expenses
   renderExpenses(arrayOfRandomExpense);
 
   // Hide overlay
